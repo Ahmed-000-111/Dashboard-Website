@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Sidebar Start */
+aside {
+  text-align: center;
+  width: fit-content;
+  padding: 20px;
+  background-color: white;
+}
+
+aside .side-title {
+  text-transform: capitalize;
+  font-size: 25px;
+  letter-spacing: 1px;
+  color: black;
+  border-bottom: 2px solid black;
+  padding: 0 10px 10px;
+  position: relative;
+}
+aside .side-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  transform: translate(-50%, 55%);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: black;
+  -webkit-transform: translate(-50%, 55%);
+  -moz-transform: translate(-50%, 55%);
+  -ms-transform: translate(-50%, 55%);
+  -o-transform: translate(-50%, 55%);
+  border: 3px solid white;
+}
+/* Sidebar End */
