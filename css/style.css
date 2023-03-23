@@ -169,6 +169,26 @@ header > div:first-child input[type="text"] {
   -ms-transition: 500ms;
   -o-transition: 500ms;
 }
+
+header > div:first-child .in {
+  position: relative;
+  display: none;
+}
+
+header > div:first-child .in input {
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  border: none;
+}
+header > div:first-child .in::after {
+  content: "\58";
+  font: var(--fa-font-solid);
+  position: absolute;
+  font-size: 11px;
+  z-index: -1;
+}
+
 header > div:first-child input[type="text"]::placeholder {
   text-transform: capitalize;
   font-size: 15px;
@@ -179,21 +199,16 @@ header > div:first-child input[type="text"]:focus::placeholder {
 header > div:first-child input[type="text"]:focus {
   width: 175px;
 }
-
-header > div:first-child .in {
-  position: relative;
+/* header > div:first-child input[type="text"]:focus + .in {
   display: flex;
   align-items: center;
-}
-/* header > div:first-child .in::after {
-  content: "\58";
-  font: var(--fa-font-solid);
-  position: absolute;
+} */
+/* header > div:first-child .in input[type="reset"]:focus {
+  display: flex;
+  align-items: center;
 } */
 
-header > div:first-child input[type="reset"] {
-  
-}
+
 
 
 header > div:last-child img {
