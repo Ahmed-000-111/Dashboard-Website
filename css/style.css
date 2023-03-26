@@ -19,6 +19,19 @@ a {
   text-decoration: none;
 }
 
+
+.title-span h2 {
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.title-span span {
+  text-transform: capitalize;
+  color: rgb(88, 84, 84);
+  font-weight: 500;
+  font-size: 17px;
+}
+
 .content {
   background-color: var(--GrayColor);
   width: calc(100% - 214.17px);
@@ -234,5 +247,28 @@ header > div:last-child img {
 }
 /* Header End */
 /* Content Start */
+.content.index .articles {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+  gap: 40px;
+  margin-top: 50px;
+}
 
+.content.index .articles article:first-child > div:first-child {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.content.index .articles article:first-child > div:last-child {
+  position: relative;
+  display: flex;
+  align-items: center;
+  
+}
+
+.content.index .articles article:first-child > div:last-child img {
+  width: 70px;
+  position: absolute;
+}
 /* Content End */
