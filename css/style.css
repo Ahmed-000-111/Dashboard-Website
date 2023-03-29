@@ -365,4 +365,79 @@ header > div:last-child img {
 .content.index .articles article:first-child > div:last-child .link a:hover {
   background-color: #5151db;
 }
+
+.content.index .articles article:nth-child(2) {
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.content.index .articles article:nth-child(2) h2 {
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.content.index .articles article:nth-child(2) span {
+  text-transform: capitalize;
+  color: rgb(88, 84, 84);
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.content.index .articles article:nth-child(2) form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  align-items: flex-end;
+}
+
+.content.index .articles article:nth-child(2) form input[type="text"],
+.content.index .articles article:nth-child(2) form textarea {
+  padding: 10px 20px;
+  background-color: #e1d4d4;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  width: 100%;
+}
+
+.content.index .articles article:nth-child(2) form textarea {
+  margin: 25px 0;
+  resize: none;
+  height: 140px;
+}
+
+.content.index .articles article:nth-child(2) form ::placeholder {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.content.index .articles article:nth-child(2) form input[type="submit"] {
+  width: fit-content;
+  text-transform: capitalize;
+  padding: 8px 14px;
+  font-size: 17px;
+  background-color: #6767e7;
+  border-radius: 7px;
+  color: white;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  transition: var(--MainTransition);
+  -webkit-transition: var(--MainTransition);
+  -moz-transition: var(--MainTransition);
+  -ms-transition: var(--MainTransition);
+  -o-transition: var(--MainTransition);
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.content.index .articles article:nth-child(2) form input[type="submit"]:hover {
+  background-color: #5151db;
+}
 /* Content End */
