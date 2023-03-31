@@ -57,6 +57,19 @@ a {
   background-image: linear-gradient(to right, black 30%, white 30%);
 }
 
+/* Index Articles' Titels(h2) */
+.artic-title {
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+/* Articles' subTitels(span) */
+.artic-subtitle {
+  text-transform: capitalize;
+  color: rgb(88, 84, 84);
+  font-weight: 500;
+  font-size: 17px;
+}
+
 /* Sidebar Start */
 aside {
   text-align: center;
@@ -439,5 +452,63 @@ header > div:last-child img {
 }
 .content.index .articles article:nth-child(2) form input[type="submit"]:hover {
   background-color: #5151db;
+}
+
+article:nth-child(3) {
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+article:nth-child(3) .content-ar3 {
+  margin-top: 50px;
+}
+
+article:nth-child(3) .content-ar3 > div {
+  display: flex;
+}
+article:nth-child(3) .content-ar3 > div:nth-child(2) {
+  
+}
+
+article:nth-child(3) .content-ar3 > div i {
+  padding: 37px;
+  font-size: 23px;
+  margin-right: 17px;
+  width: 115px;
+  display: flex;
+  justify-content: center;
+}
+article:nth-child(3) .content-ar3 > div:first-child i {
+  color: #6767e7;
+  background-color: #6767e742;
+}
+article:nth-child(3) .content-ar3 > div:nth-child(2) i {
+  color: #ca8a14;
+  background-color: #ca8a1459;
+}
+article:nth-child(3) .content-ar3 > div:last-child i {
+  color: green;
+  background-color: #00800063;
+}
+
+
+article:nth-child(3) .content-ar3 > div > div {
+  width: 100%;
+}
+
+article:nth-child(3) .content-ar3 > div > div div:first-child {
+  text-transform: capitalize;
+  color: #8c6b6b;
+  font-size: 17px;
+}
+
+article:nth-child(3) .content-ar3 > div > div div:nth-child(2) {
+  font-weight: bold;
+}
+
+article:nth-child(3) .content-ar3 > div > div div:last-child {
+  height: 3px;
+  background-color: #dfb4b4;
 }
 /* Content End */
