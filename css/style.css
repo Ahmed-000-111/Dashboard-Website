@@ -41,6 +41,7 @@ a {
   padding: 20px ;
 }
 
+/* Main-Title of all pages */
 .main-title {
   text-transform: capitalize;
   position: relative;
@@ -586,5 +587,61 @@ article:nth-child(3) .content-ar3 > div > div .bar .p55 {
 article:nth-child(3) .content-ar3 > div > div .bar .p75 {
   background-color: green;
   width: 75%;
+}
+
+article:nth-child(4) {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+article:nth-child(4) .content-ar4 {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 17px;
+}
+
+article:nth-child(4) .content-ar4 .card {
+  border: 1px solid #cab4b4;
+  padding: 26px;
+  border-radius: 6px;
+  text-align: center;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+article:nth-child(4) .content-ar4 .card i {
+  font-size: 25px;
+}
+article:nth-child(4) .content-ar4 .card:first-child i {
+  color: #ca8a14;
+}
+article:nth-child(4) .content-ar4 .card:nth-child(2) i {
+  color: #6767e7;
+}
+article:nth-child(4) .content-ar4 .card:nth-child(3) i {
+  color: green;
+}
+article:nth-child(4) .content-ar4 .card:last-child i {
+  color: #eb5353;
+}
+
+article:nth-child(4) .content-ar4 .card div {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+article:nth-child(4) .content-ar4 .card span {
+  font-size: 17px;
+  text-transform: capitalize;
+  color: #8c6b6b;
 }
 /* Content End */
