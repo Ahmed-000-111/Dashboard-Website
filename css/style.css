@@ -644,4 +644,34 @@ article:nth-child(4) .content-ar4 .card span {
   text-transform: capitalize;
   color: #8c6b6b;
 }
+
+article:nth-child(5) {
+  padding: 20px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  background-color: white;
+}
+
+article:nth-child(5) ul.content-ar5 {
+  margin-top: 50px;
+}
+
+article:nth-child(5) ul.content-ar5 li {
+  display: flex;
+  align-items: center;
+}
+
+article:nth-child(5) ul.content-ar5 li .img img {
+  max-width: 100%;
+  width: 100px;
+  border-radius: 7px;
+  margin-right: 10px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
 /* Content End */
