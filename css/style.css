@@ -711,4 +711,88 @@ article:nth-child(5) ul.content-ar5 li:not(:first-child) {
   border-top: 1px solid #e6d6d6;
   padding-top: 12px;
 }
+
+article:nth-child(6) {
+  padding: 20px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  background-color: white;
+}
+
+article:nth-child(6) ul.content-6ar {
+  margin-top: 50px;
+}
+
+article:nth-child(6) ul.content-6ar li {
+  position: relative;
+}
+
+article:nth-child(6) ul.content-6ar li:first-child {
+  padding-bottom: 20px;
+}
+
+article:nth-child(6) ul.content-6ar li:not(:first-child) {
+  padding: 20px 0;
+}
+
+article:nth-child(6) ul.content-6ar li:last-child {
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+article:nth-child(6) ul.content-6ar li:not(:last-child) {
+  border-bottom: 1px solid #e6d6d6;
+}
+
+article:nth-child(6) ul.content-6ar li h5 {
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+article:nth-child(6) ul.content-6ar li p {
+  color: #8c6b6b;
+  margin-top: 6px;
+}
+
+article:nth-child(6) ul.content-6ar li::after {
+  content: "\f12d";
+  font: var(--fa-font-solid);
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  font-size: 19px;
+  cursor: pointer;
+  transition: var(--MainTransition);
+  -webkit-transition: var(--MainTransition);
+  -moz-transition: var(--MainTransition);
+  -ms-transition: var(--MainTransition);
+  -o-transition: var(--MainTransition);
+  color: black;
+}
+article:nth-child(6) ul.content-6ar li:not(.mitigation)::after:hover {
+  color: rgb(212, 111, 111);
+}
+
+article:nth-child(6) ul.content-6ar li.mitigation h5 {
+  text-decoration: line-through;
+  opacity: .27;
+}
+
+article:nth-child(6) ul.content-6ar li.mitigation p {
+  text-decoration: line-through;
+  opacity: .27;
+}
+
+article:nth-child(6) ul.content-6ar li.mitigation::after {
+  opacity: .27;
+}
+
 /* Content End */
