@@ -707,9 +707,9 @@ article:nth-child(5) ul.content-ar5 li .one-para p {
 }
 
 article:nth-child(5) ul.content-ar5 li:not(:first-child) {
-  margin-top: 12px;
+  margin-top: 23px;
   border-top: 1px solid #e6d6d6;
-  padding-top: 12px;
+  padding-top: 23px;
 }
 
 article:nth-child(6) {
@@ -776,9 +776,6 @@ article:nth-child(6) ul.content-6ar li::after {
   -ms-transition: var(--MainTransition);
   -o-transition: var(--MainTransition);
   color: black;
-}
-article:nth-child(6) ul.content-6ar li:not(.mitigation)::after:hover {
-  color: rgb(212, 111, 111);
 }
 
 article:nth-child(6) ul.content-6ar li.mitigation h5 {
