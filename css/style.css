@@ -792,4 +792,46 @@ article:nth-child(6) ul.content-6ar li.mitigation::after {
   opacity: .27;
 }
 
+article:nth-child(7) {
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+article:nth-child(7) > div:first-of-type {
+  margin: 30px 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+article:nth-child(7) > div:first-of-type .artic-subtitle {
+  font-weight: bold;
+}
+
+article:nth-child(7) > div:first-of-type .artic-subtitle:last-child {
+  font-size: 18px;
+}
+
+article:nth-child(7) .content-7ar div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+article:nth-child(7) .content-7ar div:not(:first-child) {
+  margin: 30px 0;
+}
+
+article:nth-child(7) .content-7ar div:last-child {
+  margin: 0;
+}
+
+article:nth-child(7) .content-7ar div .word {
+  
+}
 /* Content End */

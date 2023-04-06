@@ -1,238 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard | Project</title>
-    <!-- Fontawesome -->
-    <link rel="stylesheet" href="css/all.min.css">
-    <!-- Work-San Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700&family=Jomhuria&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <!-- CSS Style -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- My Liberary -->
-    <link rel="stylesheet" href="css/my-lib.css">
-  </head>
-  <body>
-    <!-- Sidebar Start -->
-    <aside>
-      <h3 class="side-title">elzero</h3>
-      <ul>
-        <li>
-          <a class="active" href="index.html">dashboard</a>
-        </li>
-        <li>
-          <a href="settings.html">settings</a>
-        </li>
-        <li>
-          <a href="profile.html">profile</a>
-        </li>
-        <li>
-          <a href="projects.html">projects</a>
-        </li>
-        <li>
-          <a href="courses.html">courses</a>
-        </li>
-        <li>
-          <a href="friends.html">friends</a>
-        </li>
-        <li>
-          <a href="files.html">files</a>
-        </li>
-        <li>
-          <a href="plans.html">plans</a>
-        </li>
-      </ul>
-    </aside>
-    <!-- Sidebar End -->
-    <!-- Header Start -->
-    <header>
-      <div>
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <input type="search" placeholder="type a keyword">
-      </div>
-      <div>
-        <i class="fa-regular fa-bell"></i>
-        <img src="imgs/avatar.png" alt="">
-      </div>
-    </header>
-    <!-- Header End -->
-    <!-- Content Start -->
-    <div class="content index">
-      <h1 class="main-title">dashboard</h1>
-      <div class="articles">
-        <article>
-          <div>
-            <div class="title-span">
-              <h2 class="artic-title">welcome</h2>
-              <span class="artic-subtitle">elzero</span>
-            </div>
-            <img src="imgs/welcome.png" alt="">
-          </div>
-          <div>
-            <div class="img">
-              <img src="imgs/avatar.png" alt="">
-            </div>
-            <div class="info">
-              <div>
-                <h4>osama elzero</h4>
-                <span>developer</span>
-              </div>
-              <div>
-                <h4>80</h4>
-                <span>projects</span>
-              </div>
-              <div>
-                <h4>&dollar; 8500</h4>
-                <span>earned</span>
-              </div>
-            </div>
-            <div class="link">
-              <a href="profile.html">profile</a>
-            </div>
-          </div>
-        </article>
-        <article>
-          <h2 class="artic-title">quick draft</h2>
-          <span class="artic-subtitle">Write A Draft For Your Ideas</span>
-          <form>
-            <input type="text" placeholder="title">
-            <textarea placeholder="your thought"></textarea>
-            <input type="submit" value="save">
-          </form>
-        </article>
-        <article>
-          <h2 class="artic-title">yearly targets</h2>
-          <span class="artic-subtitle">targets of the year</span>
-          <div class="content-ar3">
-            <div>
-              <i class="fa-solid fa-dollar-sign"></i>
-              <div class="money">
-                <div>money</div>
-                <div>&dollar;20000</div>
-                <div class="bar"><span class="p80"></span></div>
-              </div>
-            </div>
-            <div>
-              <i class="fa-solid fa-code"></i>
-              <div class="projects">
-                <div>projects</div>
-                <div>24</div>
-                <div class="bar"><span class="p55"></span></div>
-              </div>
-            </div>
-            <div>
-              <i class="fa-solid fa-user"></i>
-              <div class="team">
-                <div>team</div>
-                <div>12</div>
-                <div class="bar"><span class="p75"></span></div>
-              </div>
-            </div>
-          </div>
-        </article>
-        <article>
-          <h2 class="artic-title">Tickets Statistics</h2>
-          <span class="artic-subtitle">Everything About Support Tickets</span>
-          <div class="content-ar4">
-            <div class="card">
-              <i class="fa-regular fa-rectangle-list"></i>
-              <div>2500</div>
-              <span>total</span>
-            </div>
-            <div class="card">
-              <i class="fa-solid fa-spinner"></i>
-              <div>500</div>
-              <span>pending</span>
-            </div>
-            <div class="card">
-              <i class="fa-regular fa-circle-check"></i>
-              <div>1900</div>
-              <span>closed</span>
-            </div>
-            <div class="card">
-              <i class="fa-regular fa-circle-xmark"></i>
-              <div>100</div>
-              <span>deleted</span>
-            </div>
-          </div>
-        </article>
-        <article>
-          <h2 class="artic-title">Latest News</h2>
-          <ul class="content-ar5">
-            <li>
-              <div class="img"><img src="imgs/news-01.png" alt=""></div>
-              <div class="two-paras">
-                <p class="one">Created SASS Section</p>
-                <p class="two">New SASS Examples & Tutorials</p>
-              </div>
-              <div class="one-para">
-                <p>3 Days Ago</p>
-              </div>
-            </li>
-            <li>
-              <div class="img"><img src="imgs/news-02.png" alt=""></div>
-              <div class="two-paras">
-                <p class="one">Changed The Design</p>
-                <p class="two">A Brand New Website Design</p>
-              </div>
-              <div class="one-para">
-                <p>5 Days Ago</p>
-              </div>
-            </li>
-            <li>
-              <div class="img"><img src="imgs/news-03.png" alt=""></div>
-              <div class="two-paras">
-                <p class="one">Team Increased</p>
-                <p class="two">3 Developers Joined The Team</p>
-              </div>
-              <div class="one-para">
-                <p>7 Days Ago</p>
-              </div>
-            </li>
-            <li>
-              <div class="img"><img src="imgs/news-04.png" alt=""></div>
-              <div class="two-paras">
-                <p class="one">Added Payment Gateway</p>
-                <p class="two">Many New Payment Gateways Added</p>
-              </div>
-              <div class="one-para">
-                <p>9 Days Ago</p>
-              </div>
-            </li>
-          </ul>
-        </article>
-        <article>
-          <h2 class="artic-title">Latest Tasks</h2>
-          <ul class="content-6ar">
-            <li>
-              <h5>Record One New Video</h5>
-              <p>Record Python Create Exe Project</p>
-            </li>
-            <li>
-              <h5>Write Article</h5>
-              <p>Write Low Level vs High Level Languages</p>
-            </li>
-            <li>
-              <h5>Finish Project</h5>
-              <p>Publish Academy Programming Project</p>
-            </li>
-            <li class="mitigation">
-              <h5>Attend The Meeting</h5>
-              <p>Attend The Project Business Analysis Meeting</p>
-            </li>
-            <li>
-              <h5>Finish Lesson</h5>
-              <p>Finish Teaching Flex Box</p>
-            </li>
-          </ul>
-        </article>
-        
-      </div>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard | Project</title>
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- Work-San Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700&family=Jomhuria&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <!-- CSS Style -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- My Liberary -->
+  <link rel="stylesheet" href="css/my-lib.css">
+</head>
+
+<body>
+  <!-- Sidebar Start -->
+  <aside>
+    <h3 class="side-title">elzero</h3>
+    <ul>
+      <li>
+        <a class="active" href="index.html">dashboard</a>
+      </li>
+      <li>
+        <a href="settings.html">settings</a>
+      </li>
+      <li>
+        <a href="profile.html">profile</a>
+      </li>
+      <li>
+        <a href="projects.html">projects</a>
+      </li>
+      <li>
+        <a href="courses.html">courses</a>
+      </li>
+      <li>
+        <a href="friends.html">friends</a>
+      </li>
+      <li>
+        <a href="files.html">files</a>
+      </li>
+      <li>
+        <a href="plans.html">plans</a>
+      </li>
+    </ul>
+  </aside>
+  <!-- Sidebar End -->
+  <!-- Header Start -->
+  <header>
+    <div>
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="search" placeholder="type a keyword">
     </div>
-    <!-- Content End -->
-  </body>
+    <div>
+      <i class="fa-regular fa-bell"></i>
+      <img src="imgs/avatar.png" alt="">
+    </div>
+  </header>
+  <!-- Header End -->
+  <!-- Content Start -->
+  <div class="content index">
+    <h1 class="main-title">dashboard</h1>
+    <div class="articles">
+      <article>
+        <div>
+          <div class="title-span">
+            <h2 class="artic-title">welcome</h2>
+            <span class="artic-subtitle">elzero</span>
+          </div>
+          <img src="imgs/welcome.png" alt="">
+        </div>
+        <div>
+          <div class="img">
+            <img src="imgs/avatar.png" alt="">
+          </div>
+          <div class="info">
+            <div>
+              <h4>osama elzero</h4>
+              <span>developer</span>
+            </div>
+            <div>
+              <h4>80</h4>
+              <span>projects</span>
+            </div>
+            <div>
+              <h4>&dollar; 8500</h4>
+              <span>earned</span>
+            </div>
+          </div>
+          <div class="link">
+            <a href="profile.html">profile</a>
+          </div>
+        </div>
+      </article>
+      <article>
+        <h2 class="artic-title">quick draft</h2>
+        <span class="artic-subtitle">Write A Draft For Your Ideas</span>
+        <form>
+          <input type="text" placeholder="title">
+          <textarea placeholder="your thought"></textarea>
+          <input type="submit" value="save">
+        </form>
+      </article>
+      <article>
+        <h2 class="artic-title">yearly targets</h2>
+        <span class="artic-subtitle">targets of the year</span>
+        <div class="content-ar3">
+          <div>
+            <i class="fa-solid fa-dollar-sign"></i>
+            <div class="money">
+              <div>money</div>
+              <div>&dollar;20000</div>
+              <div class="bar"><span class="p80"></span></div>
+            </div>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <div class="projects">
+              <div>projects</div>
+              <div>24</div>
+              <div class="bar"><span class="p55"></span></div>
+            </div>
+          </div>
+          <div>
+            <i class="fa-solid fa-user"></i>
+            <div class="team">
+              <div>team</div>
+              <div>12</div>
+              <div class="bar"><span class="p75"></span></div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article>
+        <h2 class="artic-title">Tickets Statistics</h2>
+        <span class="artic-subtitle">Everything About Support Tickets</span>
+        <div class="content-ar4">
+          <div class="card">
+            <i class="fa-regular fa-rectangle-list"></i>
+            <div>2500</div>
+            <span>total</span>
+          </div>
+          <div class="card">
+            <i class="fa-solid fa-spinner"></i>
+            <div>500</div>
+            <span>pending</span>
+          </div>
+          <div class="card">
+            <i class="fa-regular fa-circle-check"></i>
+            <div>1900</div>
+            <span>closed</span>
+          </div>
+          <div class="card">
+            <i class="fa-regular fa-circle-xmark"></i>
+            <div>100</div>
+            <span>deleted</span>
+          </div>
+        </div>
+      </article>
+      <article>
+        <h2 class="artic-title">Latest News</h2>
+        <ul class="content-ar5">
+          <li>
+            <div class="img"><img src="imgs/news-01.png" alt=""></div>
+            <div class="two-paras">
+              <p class="one">Created SASS Section</p>
+              <p class="two">New SASS Examples & Tutorials</p>
+            </div>
+            <div class="one-para">
+              <p>3 Days Ago</p>
+            </div>
+          </li>
+          <li>
+            <div class="img"><img src="imgs/news-02.png" alt=""></div>
+            <div class="two-paras">
+              <p class="one">Changed The Design</p>
+              <p class="two">A Brand New Website Design</p>
+            </div>
+            <div class="one-para">
+              <p>5 Days Ago</p>
+            </div>
+          </li>
+          <li>
+            <div class="img"><img src="imgs/news-03.png" alt=""></div>
+            <div class="two-paras">
+              <p class="one">Team Increased</p>
+              <p class="two">3 Developers Joined The Team</p>
+            </div>
+            <div class="one-para">
+              <p>7 Days Ago</p>
+            </div>
+          </li>
+          <li>
+            <div class="img"><img src="imgs/news-04.png" alt=""></div>
+            <div class="two-paras">
+              <p class="one">Added Payment Gateway</p>
+              <p class="two">Many New Payment Gateways Added</p>
+            </div>
+            <div class="one-para">
+              <p>9 Days Ago</p>
+            </div>
+          </li>
+        </ul>
+      </article>
+      <article>
+        <h2 class="artic-title">Latest Tasks</h2>
+        <ul class="content-6ar">
+          <li>
+            <h5>Record One New Video</h5>
+            <p>Record Python Create Exe Project</p>
+          </li>
+          <li>
+            <h5>Write Article</h5>
+            <p>Write Low Level vs High Level Languages</p>
+          </li>
+          <li>
+            <h5>Finish Project</h5>
+            <p>Publish Academy Programming Project</p>
+          </li>
+          <li class="mitigation">
+            <h5>Attend The Meeting</h5>
+            <p>Attend The Project Business Analysis Meeting</p>
+          </li>
+          <li>
+            <h5>Finish Lesson</h5>
+            <p>Finish Teaching Flex Box</p>
+          </li>
+        </ul>
+      </article>
+      <article>
+        <h2 class="artic-title">Top Search Items</h2>
+        <div>
+          <span class="artic-subtitle">Keyword</span>
+          <span class="artic-subtitle">Search Count</span>
+        </div>
+        <div class="content-7ar">
+          <div>
+            <span class="word">Programming</span>
+            <span class="num">220</span>
+          </div>
+          <div>
+            <span class="word">JavaScript</span>
+            <span class="num">180</span>
+          </div>
+          <div>
+            <span class="word">PHP</span>
+            <span class="num">160</span>
+          </div>
+          <div>
+            <span class="word">Code</span>
+            <span class="num">145</span>
+          </div>
+          <div>
+            <span class="word">Design</span>
+            <span class="num">110</span>
+          </div>
+          <div>
+            <span class="word">Logic</span>
+            <span class="num">95</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+  <!-- Content End -->
+</body>
+
 </html>
