@@ -913,4 +913,92 @@ article:nth-child(8) .content-8ar .row .num {
   background-color: #dfcfcf;
   border-radius: 5px;
 }
+
+article:nth-child(9) {
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+article:nth-child(9) .content-9ar {
+  margin-top: 50px;
+  position: relative;
+}
+
+article:nth-child(9) .content-9ar .points div {
+  text-transform: capitalize;
+  font-size: 17px;
+  font-weight: 500;
+  border-left: 2px solid #41419d;
+  position: relative;
+}
+article:nth-child(9) .content-9ar .points div::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  transform: translateX(-56%);
+  --WaH: 20px;
+  width: var(--WaH);
+  height: var(--WaH);
+  background-color: white;
+  border: 2px solid blue;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transform: translateX(-56%);
+  -moz-transform: translateX(-56%);
+  -ms-transform: translateX(-56%);
+  -o-transform: translateX(-56%);
+}
+article:nth-child(9) .content-9ar .points div:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  --WaH: 17px;
+  width: var(--WaH);
+  height: var(--WaH);
+  background-color: blue;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transform: translate(-59%, 19%);
+  -webkit-transform: translate(-59%, 19%);
+  -moz-transform: translate(-59%, 19%);
+  -ms-transform: translate(-59%, 19%);
+  -o-transform: translate(-59%, 19%);
+}
+
+article:nth-child(9) .content-9ar .points div:not(:first-child) {
+  padding: 15px 0 15px 25px;
+}
+
+article:nth-child(9) .content-9ar .points div:first-child {
+  padding-bottom: 15px;
+  padding-left: 25px;
+}
+
+article:nth-child(9) .content-9ar .points div:last-child {
+  padding-bottom: 0;
+}
+
+article:nth-child(9) .content-9ar .img {
+  width: fit-content;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+article:nth-child(9) .content-9ar .img img {
+  width: 140px;
+  filter: opacity(.2);
+  -webkit-filter: opacity(.2);
+}
 /* Content End */
