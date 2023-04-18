@@ -1170,4 +1170,42 @@ article:nth-child(11) .content-11ar .last span:last-child::before {
   content: "\f086";
   left: -5px;
 }
+
+article:nth-child(12) {
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+article:nth-child(12) .content-12ar {
+  margin-top: 50px;
+}
+
+article:nth-child(12) .content-12ar .row {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 20px;
+}
+
+article:nth-child(12) .content-12ar .row:nth-child(2),
+article:nth-child(12) .content-12ar .row:nth-child(3) {
+  margin: 10px 0;
+}
+
+article:nth-child(12) .content-12ar .row i.fa-twitter {
+  
+}
+
+article:nth-child(12) .content-12ar .row i.fa-square-facebook {
+
+}
+
+article:nth-child(12) .content-12ar .row i.fa-youtube {
+
+}
+
+article:nth-child(12) .content-12ar .row i.fa-linkedin {
+
+}
 /* Content End */
