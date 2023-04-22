@@ -1193,19 +1193,37 @@ article:nth-child(12) .content-12ar .row:nth-child(3) {
   margin: 10px 0;
 }
 
-article:nth-child(12) .content-12ar .row i.fa-twitter {
-  
-}
-
-article:nth-child(12) .content-12ar .row i.fa-square-facebook {
-
-}
-
-article:nth-child(12) .content-12ar .row i.fa-youtube {
-
-}
-
+article:nth-child(12) .content-12ar .row i.fa-twitter,
+article:nth-child(12) .content-12ar .row i.fa-square-facebook,
+article:nth-child(12) .content-12ar .row i.fa-youtube,
 article:nth-child(12) .content-12ar .row i.fa-linkedin {
+  font-size: 40px;
+  padding: 10px;
+  color: white;
+  width: 65px;
+  display: flex;
+  justify-content: center;
+}
+article:nth-child(12) .content-12ar .row i.fa-twitter {
+  background-color: #1da1f2;
+}
+article:nth-child(12) .content-12ar .row i.fa-square-facebook {
+  background-color: #1877f2;
+}
+article:nth-child(12) .content-12ar .row i.fa-youtube {
+  background-color: #ff0000;
+}
+article:nth-child(12) .content-12ar .row i.fa-linkedin {
+  background-color: #0077b5;
+}  /* Try to adjust the .special's width to adjust i's width */
 
+article:nth-child(12) .content-12ar .row .special {
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  background-color: #1da1f242;
 }
 /* Content End */
