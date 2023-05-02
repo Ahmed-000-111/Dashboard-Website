@@ -152,6 +152,12 @@ aside ul li a::before {
   left: 0;
   top: 50%;
   transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
 }
 aside ul li .active::before {
   content: "\e473";
@@ -1393,5 +1399,10 @@ article:nth-child(12) .content-12ar .row i:hover::before {
 }
 
 /* Responsiveness */
-
+@media (max-width: 699px) {
+  aside ul li a {
+    text-indent: 300%;
+    overflow: hidden;
+  }
+}
 /* Content End */
