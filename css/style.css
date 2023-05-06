@@ -1404,9 +1404,6 @@ article:nth-child(12) .content-12ar .row i:hover::before {
     text-indent: 300%;
     overflow: hidden;
   }
-  /* aside ul li a span {
-    display: none;
-  } */
   aside .side-title {
     font-size: 16px;
     padding: 0;
@@ -1418,6 +1415,9 @@ article:nth-child(12) .content-12ar .row i:hover::before {
   aside ul li {
     padding-left: 0;
     padding-right: 0;
+  }
+  .content.index .articles {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
 }
 /* Content End */
