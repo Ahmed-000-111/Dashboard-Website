@@ -1,1 +1,0 @@
-Modify the attribute of input from text to search.
