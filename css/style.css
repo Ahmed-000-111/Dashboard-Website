@@ -6,3 +6,36 @@
   font-family: 'Open Sans', sans-serif;
   scroll-behavior: smooth;
 }
+
+/* Global Variables */
+:root {
+  /* Colors */
+  --Red: #f44336;
+  --Blue: #0075ff;
+  --Alt-Blue: #0d69d5;
+  --Orange: #f59e0b;
+  --Green: #22c55e;
+  --Grey: #f1f5f9;
+  --Alt-Grey: #eee;
+  --Grey-Fonts: #888;
+  /* Font Size */
+  --Grey-Subs: 15px;
+  --Grey-Words-Paras: 14px;
+  /* P & M */
+  --Padding: 20px;
+}
+
+/* Scrollbar Design */
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background-color: white;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--Blue);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--Alt-Blue);
+}
+
