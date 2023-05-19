@@ -23,6 +23,12 @@
   --Grey-Words-Paras: 14px;
   /* P & M */
   --Padding: 20px;
+  /* Border Radius */
+  --BRadius: 15px;
+  /* Box Shadow */
+  --Blur: 10px;
+  --Spread: 5px;
+  --Color: #ddd;
 }
 
 /* Scrollbar Design */
@@ -39,3 +45,38 @@
   background-color: var(--Alt-Blue);
 }
 
+/* ul's Style */
+ul {
+  list-style: none;
+}
+
+/* Links' Style */
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+/* Sidebar Starting */
+aside {
+  width: fit-content;
+  height: 100%;
+  position: fixed;
+  padding: var(--Padding);
+  box-shadow: 0 0 var(--Blur) var(--Spread) var(--Color);
+}
+
+aside h3.elzero {
+  text-transform: capitalize;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0 var(--Padding) var(--Padding);
+}
+aside h3.elzero::after {
+  
+}
+aside h3.elzero::before {
+
+}
+/* Sidebar Ending */
+
+/* index's Page */
