@@ -29,6 +29,8 @@
   --Blur: 10px;
   --Spread: 5px;
   --Color: #ddd;
+  /* Transition */
+  --Transition: 500ms;
 }
 
 /* Scrollbar Design */
@@ -70,12 +72,63 @@ aside h3.elzero {
   width: fit-content;
   margin: 0 auto;
   padding: 0 var(--Padding) var(--Padding);
+  position: relative;
+  margin-bottom: var(--Padding);
 }
-aside h3.elzero::after {
-  
+aside h3.elzero::after,
+aside h3.elzero::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  bottom: 8px;
+  background-color: black;
 }
 aside h3.elzero::before {
+  --WH: 11px;
+  width: var(--WH);
+  height: var(--WH);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 4px solid white;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%, 50%);
+  -webkit-transform: translate(-50%, 50%);
+  -moz-transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, 50%);
+  -o-transform: translate(-50%, 50%);
+}
 
+aside ul.elzero li {
+  padding: 5px 0;
+  transition: var(--Transition);
+  -webkit-transition: var(--Transition);
+  -moz-transition: var(--Transition);
+  -ms-transition: var(--Transition);
+  -o-transition: var(--Transition);
+}
+
+aside ul.elzero li:not(:first-child) {
+  margin-top: var(--Padding);
+}
+
+aside ul.elzero li:first-child,
+aside ul.elzero li:not(:first-child):hover {
+  background-color: var(--Grey);
+}
+
+aside ul.elzero li a {
+  padding: 10px 40px 10px 10px;
+  color: black;
+}
+
+aside ul.elzero li a i {
+  margin-right: 10px;
 }
 /* Sidebar Ending */
 
