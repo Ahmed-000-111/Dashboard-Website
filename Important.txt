@@ -1,1 +1,2 @@
-Try to add the "i" element inside a div to try to fix the unadjusted indentation of links. 
+Try to add the "i" element inside a div to try to fix the unadjusted indentation of links.
+Check for i-element's width to adjust the centeralization. 
