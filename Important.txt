@@ -1,2 +1,1 @@
-Try to add the "i" element inside a div to try to fix the unadjusted indentation of links.
-Check for i-element's width to adjust the centeralization. 
+Try to look for "How to show up a link's tip while hovering over it". 
