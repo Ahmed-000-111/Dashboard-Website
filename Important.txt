@@ -1,1 +1,1 @@
-Try to look for "How to show up a link's tip while hovering over it". 
+Start the Index's Page, and refere to it using its body's class. 
