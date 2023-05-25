@@ -33,6 +33,17 @@
   --Transition: 500ms;
 }
 
+/* Pages' Style */
+body {
+  display: flex;
+}
+
+body .container {
+  flex-grow: 1;
+}
+
+
+
 /* Scrollbar Design */
 ::-webkit-scrollbar {
   width: 15px;
@@ -203,5 +214,7 @@ aside ul.elzero li a i {
   }
 }
 /* Sidebar Ending */
+/* Container's Header Starting */
 
+/* Container's Header Ending */
 /* index's Page */
