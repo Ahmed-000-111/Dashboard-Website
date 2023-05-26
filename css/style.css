@@ -35,11 +35,26 @@
 
 /* Pages' Style */
 body {
-  display: flex;
+  position: relative;
 }
 
 body .container {
-  flex-grow: 1;
+  width: calc(100% - 202px);
+  position: absolute;
+  right: 0;
+}
+
+/* Responsiveness Style */
+@media (min-width: 480px) and (max-width: 769px) {
+  body .container {
+    width: calc(100% - 77px);
+  }
+}
+
+@media (max-width: 479px) {
+  body .container {
+    width: calc(100% - 63px);
+  }
 }
 
 
