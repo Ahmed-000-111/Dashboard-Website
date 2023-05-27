@@ -16,6 +16,7 @@
   --Orange: #f59e0b;
   --Green: #22c55e;
   --Grey: #f1f5f9;
+  --Grey-Borders: #d2bebe;
   --Alt-Grey: #eee;
   --Grey-Fonts: #888;
   /* Font Size */
@@ -230,6 +231,75 @@ aside ul.elzero li a i {
 }
 /* Sidebar Ending */
 /* Container's Header Starting */
+.container header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
 
+.container header form {
+  position: relative;
+}
+
+.container header form i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  left: 10px;
+  color: var(--Grey-Fonts);
+}
+
+.container header form input {
+  width: 160px;
+  height: 40px;
+  border: 1px solid var(--Grey-Borders);
+  outline: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 10px 10px 10px 33px;
+}
+.container header form input::placeholder {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.container header > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 65px;
+}
+
+.container header > div i {
+  font-size: 20px;
+  position: relative;
+}
+.container header > div i::after {
+  --PWH: 10px;
+  content: "";
+  position: absolute;
+  right: -4px;
+  top: -6px;
+  width: var(--PWH);
+  height: var(--PWH);
+  background-color: var(--Red);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.container header > div img {
+  width: 32px;
+}
 /* Container's Header Ending */
 /* index's Page */
