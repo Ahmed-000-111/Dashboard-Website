@@ -265,10 +265,18 @@ aside ul.elzero li a i {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   padding: 10px 10px 10px 33px;
+  transition: var(--Transition);
+  -webkit-transition: var(--Transition);
+  -moz-transition: var(--Transition);
+  -ms-transition: var(--Transition);
+  -o-transition: var(--Transition);
 }
 .container header form input::placeholder {
   text-transform: capitalize;
   font-weight: 500;
+}
+.container header form input:focus {
+  width: 200px;
 }
 
 .container header > div {
@@ -302,4 +310,6 @@ aside ul.elzero li a i {
   width: 32px;
 }
 /* Container's Header Ending */
-/* index's Page */
+/* Index-Container-Content Starting*/
+
+/* Index-Container-Content Ending*/
