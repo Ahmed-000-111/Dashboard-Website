@@ -60,6 +60,7 @@ body .container {
 
 
 
+
 /* Scrollbar Design */
 ::-webkit-scrollbar {
   width: 15px;
@@ -235,7 +236,7 @@ aside ul.elzero li a i {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 15px;
+  padding: 10px 20px;
 }
 
 .container header form {
@@ -310,6 +311,17 @@ aside ul.elzero li a i {
   width: 32px;
 }
 /* Container's Header Ending */
-/* Index-Container-Content Starting*/
+/* Container's Content Starting*/
+.content {
+  padding: var(--Padding);
+  background-color: var(--Grey);
+}
 
-/* Index-Container-Content Ending*/
+.content h1 {
+  color: black;
+}
+
+.content h2 {
+  color: black;
+}
+/* Container's Content Ending*/

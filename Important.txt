@@ -1,1 +1,3 @@
-Specify the global properties of the content's elements.
+Specify the global properties of the content's elements:
+
+Now, adjust the responsiveness of the "content".
