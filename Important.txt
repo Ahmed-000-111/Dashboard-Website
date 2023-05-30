@@ -1,3 +1,1 @@
-Specify the global properties of the content's elements:
-
-Now, adjust the responsiveness of the "content".
+Begin the Articles' Styling.

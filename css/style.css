@@ -93,6 +93,7 @@ aside {
   position: fixed;
   padding: var(--Padding);
   box-shadow: 0 0 var(--Blur) var(--Spread) var(--Color);
+  z-index: 1;
 }
 
 aside h3.elzero {
@@ -319,9 +320,32 @@ aside ul.elzero li a i {
 
 .content h1 {
   color: black;
+  text-transform: capitalize;
+  position: relative;
+  width: fit-content;
+  padding-bottom: 10px;
+}
+.content h1::before,
+.content h1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+}
+.content h1::before {
+  width: 75%;
+  background-color: white;
+}
+.content h1::after {
+  width: 25%;
+  background-color: black;
 }
 
 .content h2 {
   color: black;
+  text-transform: capitalize;
+  width: fit-content;
+  padding-bottom: 10px;
 }
 /* Container's Content Ending*/
