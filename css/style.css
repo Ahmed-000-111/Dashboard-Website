@@ -20,7 +20,7 @@
   --Alt-Grey: #eee;
   --Grey-Fonts: #888;
   /* Font Size */
-  --Grey-Subs: 15px;
+  --Grey-Subs: 16px;
   --Grey-Words-Paras: 14px;
   /* P & M */
   --Padding: 20px;
@@ -32,6 +32,8 @@
   --Color: #ddd;
   /* Transition */
   --Transition: 500ms;
+  /* Gap */
+  --Gap: 40px;
 }
 
 /* Pages' Style */
@@ -348,4 +350,54 @@ aside ul.elzero li a i {
   width: fit-content;
   padding-bottom: 10px;
 }
+
+.content span.sub {
+  font-size: var(--Grey-Subs);
+  color: var(--Grey-Fonts);
+  text-transform: capitalize;
+  font-weight: 500;
+  position: relative;
+  top: -6px;
+}
 /* Container's Content Ending*/
+/* Index-Page-Styling Start */
+/* Articles Starting */
+.content.index .articles {
+  margin-top: var(--Padding);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  gap: var(--Gap);
+}
+
+.content.index .articles article {
+  padding: var(--Padding);
+  border-radius: var(--BRadius);
+  -webkit-border-radius: var(--BRadius);
+  -moz-border-radius: var(--BRadius);
+  -ms-border-radius: var(--BRadius);
+  -o-border-radius: var(--BRadius);
+  background-color: var(--Alt-Grey);
+}
+
+.content.index .articles article:first-child > div:first-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content.index .articles article:first-child > div:first-child div span {
+
+}
+
+.content.index .articles article:first-child > div:first-child img {
+  width: 200px;
+}
+
+.content.index .articles article:first-child > div:nth-child(2) {
+  
+}
+
+.content.index .articles article:first-child > div:nth-child(2) img {
+  width: 64px;
+}
+/* Articles Ending */
+/* Index-Page-Styling End */
