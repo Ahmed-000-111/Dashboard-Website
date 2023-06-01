@@ -384,20 +384,55 @@ aside ul.elzero li a i {
   justify-content: space-between;
 }
 
-.content.index .articles article:first-child > div:first-child div span {
-
-}
-
 .content.index .articles article:first-child > div:first-child img {
   width: 200px;
 }
 
 .content.index .articles article:first-child > div:nth-child(2) {
-  
+  background-color: white;
+  width: calc(100% + 40px);
+  position: relative;
+  left: -20px;
+  height: 70px;
 }
 
 .content.index .articles article:first-child > div:nth-child(2) img {
   width: 64px;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: transparent;
+  position: absolute;
+  left: 20px;
+  top: -50%;
+  box-shadow: 0 0 1px 0px;
+}
+
+.content.index .articles article:first-child > div:nth-child(3) {
+  background-color: white;
+  width: calc(100% + 40px);
+  position: relative;
+  left: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid var(--Alt-Grey);
+  border-bottom: 1px solid var(--Alt-Grey);
+  text-align: center;
+  padding: var(--Padding) 0;
+  text-transform: capitalize;
+}
+
+.content.index .articles article:first-child > div:nth-child(3) div {
+  display: flex;
+  flex-direction: column;
+}
+
+.content.index .articles article:first-child > div:nth-child(3) div span:first-child {
+  
+}
+
+.content.index .articles article:first-child > div:nth-child(3) div span:last-child {
+  
 }
 /* Articles Ending */
 /* Index-Page-Styling End */
