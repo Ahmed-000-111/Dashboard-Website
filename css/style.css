@@ -376,7 +376,10 @@ aside ul.elzero li a i {
   -moz-border-radius: var(--BRadius);
   -ms-border-radius: var(--BRadius);
   -o-border-radius: var(--BRadius);
-  background-color: var(--Alt-Grey);
+}
+
+.content.index .articles article:first-child {
+  background-image: linear-gradient(to bottom, var(--Alt-Grey) 50%, white 50%);
 }
 
 .content.index .articles article:first-child > div:first-child {
@@ -428,11 +431,39 @@ aside ul.elzero li a i {
 }
 
 .content.index .articles article:first-child > div:nth-child(3) div span:first-child {
-  
+  font-weight: 600;
 }
 
 .content.index .articles article:first-child > div:nth-child(3) div span:last-child {
-  
+  font-size: 14px;
+  color: var(--Grey-Fonts);
+}
+
+.content.index .articles article:first-child > div:nth-child(4) {
+  background-color: white;
+  width: calc(100% + 40px);
+  position: relative;
+  left: -20px;
+  padding: var(--Padding);
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.content.index .articles article:first-child > div:nth-child(4) a {
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: var(--Blue);
+  font-size: 15px;
+  font-weight: 500;
+  transition: var(--Transition);
+  -webkit-transition: var(--Transition);
+  -moz-transition: var(--Transition);
+  -ms-transition: var(--Transition);
+  -o-transition: var(--Transition);
+}
+.content.index .articles article:first-child > div:nth-child(4) a:hover {
+  background-color: var(--Alt-Blue);
 }
 /* Articles Ending */
 /* Index-Page-Styling End */
