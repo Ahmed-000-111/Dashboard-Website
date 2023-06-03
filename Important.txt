@@ -1,1 +1,1 @@
-Adjust thr Responsiveness of the first article.
+Solve the problem "the width of the article doesn't comply with the rules of Responsiveness"

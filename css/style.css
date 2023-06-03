@@ -370,7 +370,7 @@ aside ul.elzero li a i {
 }
 
 .content.index .articles article {
-  padding: var(--Padding);
+  /* padding: var(--Padding); */
   border-radius: var(--BRadius);
   -webkit-border-radius: var(--BRadius);
   -moz-border-radius: var(--BRadius);
@@ -385,6 +385,7 @@ aside ul.elzero li a i {
 .content.index .articles article:first-child > div:first-child {
   display: flex;
   justify-content: space-between;
+  padding: var(--Padding) var(--Padding) 0;
 }
 
 .content.index .articles article:first-child > div:first-child img {
@@ -393,10 +394,10 @@ aside ul.elzero li a i {
 
 .content.index .articles article:first-child > div:nth-child(2) {
   background-color: white;
-  width: calc(100% + 40px);
+  width: 100%;
   position: relative;
-  left: -20px;
   height: 70px;
+  padding: 0 var(--Padding);
 }
 
 .content.index .articles article:first-child > div:nth-child(2) img {
@@ -412,16 +413,15 @@ aside ul.elzero li a i {
 
 .content.index .articles article:first-child > div:nth-child(3) {
   background-color: white;
-  width: calc(100% + 40px);
+  width: 100%;
   position: relative;
-  left: -20px;
   display: flex;
   align-items: center;
   justify-content: space-around;
   border-top: 1px solid var(--Alt-Grey);
   border-bottom: 1px solid var(--Alt-Grey);
   text-align: center;
-  padding: var(--Padding) 0;
+  padding: var(--Padding) var(--Padding);
   text-transform: capitalize;
 }
 
@@ -441,9 +441,8 @@ aside ul.elzero li a i {
 
 .content.index .articles article:first-child > div:nth-child(4) {
   background-color: white;
-  width: calc(100% + 40px);
+  width: 100%;
   position: relative;
-  left: -20px;
   padding: var(--Padding);
   display: flex;
   flex-direction: row-reverse;
@@ -464,6 +463,22 @@ aside ul.elzero li a i {
 }
 .content.index .articles article:first-child > div:nth-child(4) a:hover {
   background-color: var(--Alt-Blue);
+}
+
+@media (min-width: 480px) and (max-width: 769px) {
+  .content.index .articles article:first-child > div:first-child {
+    height: 108px;
+  }
+  .content.index .articles article:first-child > div:first-child img {
+    display: none;
+  }
+  .content.index .articles article:first-child > div:nth-child(2) img {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .content.index .articles article:first-child > div:nth-child(3) div {
+    flex-basis: 33.3%;
+  }
 }
 /* Articles Ending */
 /* Index-Page-Styling End */
