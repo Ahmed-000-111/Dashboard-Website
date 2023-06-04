@@ -465,7 +465,7 @@ aside ul.elzero li a i {
   background-color: var(--Alt-Blue);
 }
 
-@media (min-width: 480px) and (max-width: 769px) {
+@media (max-width: 769px) {
   .content.index .articles article:first-child > div:first-child {
     height: 108px;
   }
