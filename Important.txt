@@ -1,2 +1,1 @@
-Solve the problem "the width of the article doesn't comply with the rules of Responsiveness".
-See why the width doesn't fit with the minmax's 450px.
+Begin the second Article.
