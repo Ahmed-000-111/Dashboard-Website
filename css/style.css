@@ -496,5 +496,18 @@ aside ul.elzero li a i {
     padding: 13px 0;
   }
 }
+
+
+.content.index .articles article:nth-child(2) {
+  background-color: white;
+}
+
+.content.index .articles article:nth-child(2) div {
+  padding: var(--Padding);
+}
+
+.content.index .articles article:nth-child(2) form {
+  
+}
 /* Articles Ending */
 /* Index-Page-Styling End */
