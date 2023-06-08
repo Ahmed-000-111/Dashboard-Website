@@ -497,7 +497,7 @@ aside ul.elzero li a i {
   }
 }
 
-
+/* Second Article */
 .content.index .articles article:nth-child(2) {
   background-color: white;
 }
@@ -518,6 +518,7 @@ aside ul.elzero li a i {
   border: none;
   padding: 10px;
   background-color: var(--Alt-Grey);
+  outline: none;
 }
 
 .content.index .articles article:nth-child(2) form ::placeholder {
@@ -532,6 +533,7 @@ aside ul.elzero li a i {
 
 .content.index .articles article:nth-child(2) form input[type="submit"] {
   border: none;
+  outline: none;
   border-radius: 5px;
   width: fit-content;
   background-color: var(--Blue);
@@ -541,9 +543,13 @@ aside ul.elzero li a i {
   font-weight: 500;
   transition: var(--Transition);
   margin: 0 0 0 calc(100% - 53px);
+  cursor: pointer;
 }
 .content.index .articles article:nth-child(2) form input[type="submit"]:hover {
-  
+  background-color: var(--Alt-Blue);
 }
+
+/* Third Article */
+
 /* Articles Ending */
 /* Index-Page-Styling End */
