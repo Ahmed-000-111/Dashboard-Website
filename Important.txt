@@ -1,1 +1,1 @@
-begin the css styling for the Third Article.
+Solve the padding & centeralization problems of the "i" elements.

@@ -550,6 +550,29 @@ aside ul.elzero li a i {
 }
 
 /* Third Article */
+.content.index .articles article:nth-child(3) {
+  background-color: white;
+}
 
+.content.index .articles article:nth-child(3) > div {
+  padding-left: var(--Padding);
+  padding-right: var(--Padding);
+}
+
+.content.index .articles article:nth-child(3) > div:first-child {
+  padding: var(--Padding);
+}
+
+.content.index .articles article:nth-child(3) > div:not(:first-child) {
+  display: flex;
+  align-items: center;
+}
+
+.content.index .articles article:nth-child(3) > div > i {
+  padding: var(--Padding) 24px;
+  color: var(--Blue);
+  background-color: #0075ff33;
+  font-size: 20px;
+}
 /* Articles Ending */
 /* Index-Page-Styling End */
