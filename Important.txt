@@ -1,1 +1,0 @@
-Solve the padding & centeralization problems of the "i" elements.
