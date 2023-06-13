@@ -579,7 +579,7 @@ aside ul.elzero li a i {
 .content.index .articles article:nth-child(3) > div .icon {
   background-color: oklch(0.59 0.22 258.42 / 0.3);
   display: flex;
-  width: 60px;
+  width: 65px;
   height: 60px;
   align-items: center;
   justify-content: center;
@@ -603,7 +603,70 @@ aside ul.elzero li a i {
 }
 
 .content.index .articles article:nth-child(3) > div > div:last-child {
-  
+  width: 100%;
+}
+
+.content.index .articles article:nth-child(3) > div > div:last-child .info {
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+}
+
+.content.index .articles article:nth-child(3) > div > div:last-child .info span:first-of-type {
+  font-size: var(--Grey-Words-Paras);
+  color: var(--Grey-Fonts);
+}
+
+.content.index .articles article:nth-child(3) > div > div:last-child .info span:last-of-type {
+  font-weight: 700;
+}
+
+.content.index .articles article:nth-child(3) > div > div:last-child .bar {
+  height: 4px;
+  background-color: #eadddd;
+  margin-top: 10px;
+}
+
+.content.index .articles article:nth-child(3) > div > div:last-child .bar span {
+  display: block;
+  height: 100%;
+  position: relative;
+}
+.content.index .articles article:nth-child(3) > div > div:last-child .bar span::before {
+  content: "";
+  position: absolute;
+  border: 7px solid;
+  right: 0;
+  top: -14px;
+  transform: translateX(50%);
+  -webkit-transform: translateX(50%);
+  -moz-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  -o-transform: translateX(50%);
+}
+
+.content.index .articles article:nth-child(3) > div:nth-child(2) > div:last-child .bar span {
+  width: 80%;
+  background-color: var(--Blue);
+}
+.content.index .articles article:nth-child(3) > div:nth-child(2) > div:last-child .bar span::before {
+  border-color: var(--Blue) transparent transparent transparent;
+}
+
+.content.index .articles article:nth-child(3) > div:nth-child(3) > div:last-child .bar span {
+  width: 55%;
+  background-color: var(--Orange);
+}
+.content.index .articles article:nth-child(3) > div:nth-child(3) > div:last-child .bar span::before {
+  border-color: var(--Orange) transparent transparent transparent;
+}
+
+.content.index .articles article:nth-child(3) > div:nth-child(4) > div:last-child .bar span {
+  width: 75%;
+  background-color: var(--Green);
+}
+.content.index .articles article:nth-child(3) > div:nth-child(4) > div:last-child .bar span::before {
+  border-color: var(--Green) transparent transparent transparent;
 }
 /* Articles Ending */
 /* Index-Page-Styling End */
