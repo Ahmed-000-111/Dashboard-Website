@@ -644,6 +644,22 @@ aside ul.elzero li a i {
   -ms-transform: translateX(50%);
   -o-transform: translateX(50%);
 }
+.content.index .articles article:nth-child(3) > div > div:last-child .bar span::after {
+  
+  position: absolute;
+  color: white;
+  
+  right: 0;
+  transform: translateX(50%);
+  -webkit-transform: translateX(50%);
+  -moz-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  -o-transform: translateX(50%);
+  padding: 3px 5px;
+  font-size: 14px;
+  border-radius: 5px;
+  top: -39px;
+}
 
 .content.index .articles article:nth-child(3) > div:nth-child(2) > div:last-child .bar span {
   width: 80%;
@@ -651,6 +667,10 @@ aside ul.elzero li a i {
 }
 .content.index .articles article:nth-child(3) > div:nth-child(2) > div:last-child .bar span::before {
   border-color: var(--Blue) transparent transparent transparent;
+}
+.content.index .articles article:nth-child(3) > div:nth-child(2) > div:last-child .bar span::after {
+  content: "80%";
+  background-color: var(--Blue);
 }
 
 .content.index .articles article:nth-child(3) > div:nth-child(3) > div:last-child .bar span {
@@ -660,6 +680,10 @@ aside ul.elzero li a i {
 .content.index .articles article:nth-child(3) > div:nth-child(3) > div:last-child .bar span::before {
   border-color: var(--Orange) transparent transparent transparent;
 }
+.content.index .articles article:nth-child(3) > div:nth-child(3) > div:last-child .bar span::after {
+  content: "55%";
+  background-color: var(--Orange);
+}
 
 .content.index .articles article:nth-child(3) > div:nth-child(4) > div:last-child .bar span {
   width: 75%;
@@ -667,6 +691,10 @@ aside ul.elzero li a i {
 }
 .content.index .articles article:nth-child(3) > div:nth-child(4) > div:last-child .bar span::before {
   border-color: var(--Green) transparent transparent transparent;
+}
+.content.index .articles article:nth-child(3) > div:nth-child(4) > div:last-child .bar span::after {
+  content: "75%";
+  background-color: var(--Green);
 }
 /* Articles Ending */
 /* Index-Page-Styling End */
