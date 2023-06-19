@@ -750,5 +750,38 @@ aside ul.elzero li a i {
   font-size: 14px;
   font-weight: 600;
 }
+
+.content.index .articles article:nth-child(5) {
+  background-color: white;
+  padding: var(--Padding);
+}
+
+.content.index .articles article:nth-child(5) .m-section {
+  margin-top: var(--Padding);
+}
+
+.content.index .articles article:nth-child(5) .m-section .row {
+  display: flex;
+  position: relative;
+}
+
+.content.index .articles article:nth-child(5) .m-section .row img {
+  max-width: 100%;
+  width: 100px;
+  margin-right: 20px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.content.index .articles article:nth-child(5) .m-section .row > div {
+
+}
+
+.content.index .articles article:nth-child(5) .m-section .row > span {
+  
+}
 /* Articles Ending */
 /* Index-Page-Styling End */
