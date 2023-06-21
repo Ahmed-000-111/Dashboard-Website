@@ -1,1 +1,1 @@
-Adjust spaces.
+Adjust the responsiveness.

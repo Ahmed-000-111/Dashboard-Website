@@ -763,6 +763,13 @@ aside ul.elzero li a i {
 .content.index .articles article:nth-child(5) .m-section .row {
   display: flex;
   position: relative;
+  align-items: center;
+}
+
+.content.index .articles article:nth-child(5) .m-section .row:not(.one) {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid var(--Grey-Borders);
 }
 
 .content.index .articles article:nth-child(5) .m-section .row img {
@@ -777,11 +784,29 @@ aside ul.elzero li a i {
 }
 
 .content.index .articles article:nth-child(5) .m-section .row > div {
+  text-align: left;
+}
 
+.content.index .articles article:nth-child(5) .m-section .row > div h4 {
+  font-size: 15px;
+}
+
+.content.index .articles article:nth-child(5) .m-section .row > div span {
+  color: var(--Grey-Fonts);
+  font-size: var(--Grey-Words-Paras);
 }
 
 .content.index .articles article:nth-child(5) .m-section .row > span {
-  
+  position: absolute;
+  right: 0;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 5px 10px;
+  background-color: var(--Alt-Grey);
+  border-radius: 5px;
 }
+
+/* Resposiveness Styling */
+
 /* Articles Ending */
 /* Index-Page-Styling End */
