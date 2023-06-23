@@ -807,6 +807,20 @@ aside ul.elzero li a i {
 }
 
 /* Resposiveness Styling */
-
+@media (max-width: 479px) {
+  .content.index .articles article:nth-child(5) .m-section .row > span {
+    position: relative;
+  }
+  .content.index .articles article:nth-child(5) .m-section .row {
+    flex-direction: column;
+  }
+  .content.index .articles article:nth-child(5) .m-section .row img {
+    margin: 0;
+  }
+  .content.index .articles article:nth-child(5) .m-section .row > div {
+    text-align: center;
+    margin: 10px 0;
+  }
+}
 /* Articles Ending */
 /* Index-Page-Styling End */
