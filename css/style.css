@@ -822,5 +822,40 @@ aside ul.elzero li a i {
     margin: 10px 0;
   }
 }
+
+.content.index .articles article:nth-child(6) {
+  background-color: white;
+  padding: var(--Padding);
+}
+
+.content.index .articles article:nth-child(6) .m-section {
+  margin-top: var(--Padding);
+}
+
+.content.index .articles article:nth-child(6) .m-section .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content.index .articles article:nth-child(6) .m-section .row:not(:first-child) {
+  padding-top: var(--Padding);
+  margin-top: var(--Padding);
+  border-top: 1px solid var(--Grey-Borders);
+}
+
+.content.index .articles article:nth-child(6) .m-section .row div span {
+  color: var(--Grey-Fonts);
+  font-weight: 600;
+}
+
+.content.index .articles article:nth-child(6) .m-section .row.four div {
+  text-decoration: line-through;
+}
+
+.content.index .articles article:nth-child(6) .m-section .row.four div,
+.content.index .articles article:nth-child(6) .m-section .row.four i {
+  opacity: .3;
+}
 /* Articles Ending */
 /* Index-Page-Styling End */
