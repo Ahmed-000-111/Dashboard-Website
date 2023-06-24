@@ -857,5 +857,53 @@ aside ul.elzero li a i {
 .content.index .articles article:nth-child(6) .m-section .row.four i {
   opacity: .3;
 }
+
+.content.index .articles article:nth-child(6) .m-section .row:not(.four) a {
+  transition: var(--Transition);
+  -webkit-transition: var(--Transition);
+  -moz-transition: var(--Transition);
+  -ms-transition: var(--Transition);
+  -o-transition: var(--Transition);
+}
+.content.index .articles article:nth-child(6) .m-section .row:not(.four) a:hover {
+  color: var(--Red);
+}
+
+.content.index .articles article:nth-child(7) {
+  background-color: white;
+  padding: var(--Padding);
+}
+
+.content.index .articles article:nth-child(7) .m-section {
+  margin-top: var(--Padding);
+}
+
+.content.index .articles article:nth-child(7) .m-section .header,
+.content.index .articles article:nth-child(7) .m-section .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content.index .articles article:nth-child(7) .m-section .header span {
+  color: var(--Grey-Fonts);
+  text-transform: capitalize;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.content.index .articles article:nth-child(7) .m-section .row.one {
+  margin-top: var(--Padding);
+}
+
+.content.index .articles article:nth-child(7) .m-section .row:not(.one) {
+  margin-top: 30px;
+}
+
+.content.index .articles article:nth-child(7) .m-section .row span:last-child {
+  padding: 3px 7px;
+  background-color: var(--Alt-Grey);
+  border-radius: 5px;
+}
 /* Articles Ending */
 /* Index-Page-Styling End */
