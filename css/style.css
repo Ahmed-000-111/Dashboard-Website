@@ -905,5 +905,50 @@ aside ul.elzero li a i {
   background-color: var(--Alt-Grey);
   border-radius: 5px;
 }
+
+.content.index .articles article:nth-child(8) {
+  background-color: white;
+  padding: var(--Padding);
+}
+
+.content.index .articles article:nth-child(8) .m-section {
+  margin-top: var(--Padding);
+}
+
+.content.index .articles article:nth-child(8) .m-section .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content.index .articles article:nth-child(8) .m-section .row > div {
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.content.index .articles article:nth-child(8) .m-section .row > div img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.content.index .articles article:nth-child(8) .m-section .row > div > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.content.index .articles article:nth-child(8) .m-section .row > div > div span:first-of-type {
+  font-weight: 500;
+}
+
+.content.index .articles article:nth-child(8) .m-section .row > div > div span:last-of-type {
+  font-size: 15px;
+  color: var(--Grey-Fonts);
+  font-weight: 500;
+}
+
+.content.index .articles article:nth-child(8) .m-section .row > span {
+  
+}
 /* Articles Ending */
 /* Index-Page-Styling End */
