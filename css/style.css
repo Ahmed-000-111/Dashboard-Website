@@ -921,6 +921,12 @@ aside ul.elzero li a i {
   justify-content: space-between;
 }
 
+.content.index .articles article:nth-child(8) .m-section .row:not(.one) {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--Grey-Borders);
+}
+
 .content.index .articles article:nth-child(8) .m-section .row > div {
   display: flex;
   align-items: center;
@@ -948,7 +954,11 @@ aside ul.elzero li a i {
 }
 
 .content.index .articles article:nth-child(8) .m-section .row > span {
-  
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 3px 7px;
+  background-color: var(--Alt-Grey);
+  border-radius: 5px;
 }
 /* Articles Ending */
 /* Index-Page-Styling End */
