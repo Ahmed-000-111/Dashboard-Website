@@ -976,28 +976,58 @@ aside ul.elzero li a i {
 .content.index .articles article:nth-child(9) .m-section .row {
   position: relative;
 }
-.content.index .articles article:nth-child(9) .m-section .row::before {
+.content.index .articles article:nth-child(9) .m-section .row::before,
+.content.index .articles article:nth-child(9) .m-section .row::after {
   content: "";
   position: absolute;
   left: -20px;
   top: 50%;
-  transform: translate(-55%, -50%);
-  width: 20px;
-  height: 20px;
-  background-color: white;
-  border: 2px solid var(--Blue);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+}
+.content.index .articles article:nth-child(9) .m-section .row::before {
+  transform: translate(-55%, -50%);
   -webkit-transform: translate(-55%, -50%);
   -moz-transform: translate(-55%, -50%);
   -ms-transform: translate(-55%, -50%);
   -o-transform: translate(-55%, -50%);
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 2px solid var(--Blue);
 }
 .content.index .articles article:nth-child(9) .m-section .row::after {
-  
+  transform: translate(-57%, -50%);
+  width: 17px;
+  height: 17px;
+  background-color: var(--Blue);
+  -webkit-transform: translate(-57%, -50%);
+  -moz-transform: translate(-57%, -50%);
+  -ms-transform: translate(-57%, -50%);
+  -o-transform: translate(-57%, -50%);
+}
+.content.index .articles article:nth-child(9) .m-section .row.four::after {
+  animation-name: change-color;
+  animation-duration: 2000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes change-color {
+  0% {
+    background-color: var(--Blue);
+  }
+  50% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: var(--Blue);
+  }
+}
+.content.index .articles article:nth-child(9) .m-section .row.five::after {
+  display: none;
 }
 
 .content.index .articles article:nth-child(9) .m-section .row:not(.one) {
@@ -1014,6 +1044,18 @@ aside ul.elzero li a i {
   right: 0;
   bottom: 0;
   opacity: .1;
+}
+
+/* Responsiveness Styling */
+@media (max-width: 479px) {
+  .content.index .articles article:nth-child(9) img {
+    display: none;
+  }
+  .content.index .articles article:nth-child(9) .m-section .row {
+    height: 44px;
+    display: flex;
+    align-items: center;
+  }
 }
 /* Articles Ending */
 /* Index-Page-Styling End */
