@@ -1057,5 +1057,70 @@ aside ul.elzero li a i {
     align-items: center;
   }
 }
+
+.content.index .articles article:nth-child(10) {
+  background-color: white;
+  padding: var(--Padding);
+}
+
+.content.index .articles article:nth-child(10) .m-section {
+  margin-top: var(--Padding);
+}
+
+.content.index .articles article:nth-child(10) .m-section .row {
+  display: flex;
+  align-items: center;
+}
+
+.content.index .articles article:nth-child(10) .m-section .row:not(.one) {
+  margin-top: 15px;
+}
+
+.content.index .articles article:nth-child(10) .m-section .row .circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 15px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.content.index .articles article:nth-child(10) .m-section .row.one .circle {
+  background-color: var(--Blue);
+}
+.content.index .articles article:nth-child(10) .m-section .row.two .circle {
+  background-color: var(--Green);
+}
+.content.index .articles article:nth-child(10) .m-section .row.three .circle {
+  background-color: var(--Orange);
+}
+.content.index .articles article:nth-child(10) .m-section .row.four .circle {
+  background-color: var(--Red);
+}
+
+.content.index .articles article:nth-child(10) .m-section .row div:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15px;
+  border-left: 2px solid;
+}
+.content.index .articles article:nth-child(10) .m-section .row.one div:last-child {
+  border-left-color: var(--Blue);
+}
+.content.index .articles article:nth-child(10) .m-section .row.two div:last-child {
+  border-left-color: var(--Green);
+}
+.content.index .articles article:nth-child(10) .m-section .row.three div:last-child {
+  border-left-color: var(--Orange);
+}
+.content.index .articles article:nth-child(10) .m-section .row.four div:last-child {
+  border-left-color: var(--Red);
+}
+
+.content.index .articles article:nth-child(10) .m-section .row div:last-child span:first-of-type {
+  
+}
 /* Articles Ending */
 /* Index-Page-Styling End */
