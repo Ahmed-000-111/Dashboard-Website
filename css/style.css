@@ -1120,6 +1120,47 @@ aside ul.elzero li a i {
 }
 
 .content.index .articles article:nth-child(10) .m-section .row div:last-child span:first-of-type {
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.content.index .articles article:nth-child(10) .m-section .row div:last-child span:last-of-type {
+  color: var(--Grey-Fonts);
+  font-size: 14px;
+}
+
+/* Responsiveness Styling */
+@media (max-width: 479px) {
+  .content.index .articles article:nth-child(10) .m-section .row div:last-child span:first-of-type {
+    font-size: 10px;
+  }
+}
+
+.content.index .articles article:nth-child(11) {
+  background-color: white;
+  padding: var(--Padding);
+}
+
+.content.index .articles article:nth-child(11) .m-section {
+  margin-top: var(--Padding);
+}
+
+.content.index .articles article:nth-child(11) .m-section .first {
+  display: flex;
+  align-items: center;
+}
+
+.content.index .articles article:nth-child(11) .m-section .first img {
+  width: 48px;
+  margin-right: 16px;
+}
+
+.content.index .articles article:nth-child(11) .m-section .first div {
+  display: flex;
+  flex-direction: column;
+}
+
+.content.index .articles article:nth-child(11) .m-section .first div span:first-of-type {
   
 }
 /* Articles Ending */
