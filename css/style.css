@@ -1148,6 +1148,8 @@ aside ul.elzero li a i {
 .content.index .articles article:nth-child(11) .m-section .first {
   display: flex;
   align-items: center;
+  padding-bottom: var(--Padding);
+  border-bottom: 1px solid var(--Grey-Borders);
 }
 
 .content.index .articles article:nth-child(11) .m-section .first img {
@@ -1161,6 +1163,32 @@ aside ul.elzero li a i {
 }
 
 .content.index .articles article:nth-child(11) .m-section .first div span:first-of-type {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.content.index .articles article:nth-child(11) .m-section .first div span:last-of-type {
+  color: var(--Grey-Fonts);
+  font-size: 14px;
+}
+
+.content.index .articles article:nth-child(11) .m-section p {
+  padding: var(--Padding) 0;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: justify;
+  border-bottom: 1px solid var(--Grey-Borders);
+}
+
+.content.index .articles article:nth-child(11) .m-section .last {
+  padding-top: var(--Padding);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--Grey-Fonts);
+}
+
+.content.index .articles article:nth-child(12) {
   
 }
 /* Articles Ending */
