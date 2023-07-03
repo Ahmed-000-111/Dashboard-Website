@@ -1189,6 +1189,50 @@ aside ul.elzero li a i {
 }
 
 .content.index .articles article:nth-child(12) {
+  background-color: white;
+  padding: var(--Padding);
+}
+
+.content.index .articles article:nth-child(12) .m-section {
+  margin-top: var(--Padding);
+}
+
+.content.index .articles article:nth-child(12) .m-section .row {
+  padding-right: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.content.index .articles article:nth-child(12) .m-section .row i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 25px;
+  padding: 9px;
+  width: 40px;
+}
+
+.content.index .articles article:nth-child(12) .m-section .row.one i {
+  background-color: #1da1f2;
+}
+
+.content.index .articles article:nth-child(12) .m-section .row.two i {
+  background-color: #1877f2;
+}
+
+.content.index .articles article:nth-child(12) .m-section .row.three i {
+  background-color: #ff0000;
+}
+
+.content.index .articles article:nth-child(12) .m-section .row.four i {
+  background-color: #0077b5;
+}
+
+.content.index .articles article:nth-child(12) .m-section .row a {
+  position: absolute;
+  right: 0;
   
 }
 /* Articles Ending */
