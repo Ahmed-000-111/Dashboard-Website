@@ -1204,14 +1204,35 @@ aside ul.elzero li a i {
   align-items: center;
 }
 
+.content.index .articles article:nth-child(12) .m-section .row.one {
+  background-color: rgb(29 161 242 / 20%);
+}
+
+.content.index .articles article:nth-child(12) .m-section .row.two {
+  background-color: rgb(24 119 242 / 20%);
+}
+
+.content.index .articles article:nth-child(12) .m-section .row.three {
+  background-color: rgb(255 0 0 / 20%);
+}
+
+.content.index .articles article:nth-child(12) .m-section .row.four {
+  background-color: rgb(0 119 181 / 20%);
+}
+
+.content.index .articles article:nth-child(12) .m-section .row:not(.one) {
+  margin-top: 10px;
+}
+
 .content.index .articles article:nth-child(12) .m-section .row i {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 25px;
-  padding: 9px;
-  width: 40px;
+  font-size: 29px;
+  padding: 9px 5px;
+  width: 45px;
+  margin-right: 17px;
 }
 
 .content.index .articles article:nth-child(12) .m-section .row.one i {
@@ -1230,10 +1251,53 @@ aside ul.elzero li a i {
   background-color: #0077b5;
 }
 
+.content.index .articles article:nth-child(12) .m-section .row span {
+  font-weight: 600;
+}
+
+.content.index .articles article:nth-child(12) .m-section .row.one span {
+  color: #1da1f2;
+}
+
+.content.index .articles article:nth-child(12) .m-section .row.two span {
+  color: #1877f2;
+}
+
+.content.index .articles article:nth-child(12) .m-section .row.three span {
+  color: #ff0000;
+}
+
+.content.index .articles article:nth-child(12) .m-section .row.four span {
+  color: #0077b5;
+}
+
 .content.index .articles article:nth-child(12) .m-section .row a {
   position: absolute;
-  right: 0;
-  
+  right: 17px;
+  font-size: 12px;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.content.index .articles article:nth-child(12) .m-section .row.one a {
+  background-color: #1da1f2;
+}
+
+.content.index .articles article:nth-child(12) .m-section .row.two a {
+  background-color: #1877f2;
+}
+
+.content.index .articles article:nth-child(12) .m-section .row.three a {
+  background-color: #ff0000;
+}
+
+.content.index .articles article:nth-child(12) .m-section .row.four a {
+  background-color: #0077b5;
 }
 /* Articles Ending */
 /* Index-Page-Styling End */
