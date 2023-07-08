@@ -1202,6 +1202,8 @@ aside ul.elzero li a i {
   position: relative;
   display: flex;
   align-items: center;
+  overflow: hidden;
+  height: 47px;
 }
 
 .content.index .articles article:nth-child(12) .m-section .row.one {
@@ -1233,6 +1235,13 @@ aside ul.elzero li a i {
   padding: 9px 5px;
   width: 45px;
   margin-right: 17px;
+  position: absolute;
+  z-index: 2;
+  transition: var(--Transition);
+  -webkit-transition: var(--Transition);
+  -moz-transition: var(--Transition);
+  -ms-transition: var(--Transition);
+  -o-transition: var(--Transition);
 }
 
 .content.index .articles article:nth-child(12) .m-section .row.one i {
@@ -1253,6 +1262,13 @@ aside ul.elzero li a i {
 
 .content.index .articles article:nth-child(12) .m-section .row span {
   font-weight: 600;
+  position: relative;
+  left: -125px;
+  transition: var(--Transition);
+  -webkit-transition: var(--Transition);
+  -moz-transition: var(--Transition);
+  -ms-transition: var(--Transition);
+  -o-transition: var(--Transition);
 }
 
 .content.index .articles article:nth-child(12) .m-section .row.one span {
@@ -1282,6 +1298,11 @@ aside ul.elzero li a i {
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
+  transition: var(--Transition);
+  -webkit-transition: var(--Transition);
+  -moz-transition: var(--Transition);
+  -ms-transition: var(--Transition);
+  -o-transition: var(--Transition);
 }
 
 .content.index .articles article:nth-child(12) .m-section .row.one a {
@@ -1298,6 +1319,30 @@ aside ul.elzero li a i {
 
 .content.index .articles article:nth-child(12) .m-section .row.four a {
   background-color: #0077b5;
+}
+
+/* Hovering Style */
+.content.index .articles article:nth-child(12) .m-section .row i:hover + span {
+  left: 57px;
+}
+.content.index .articles article:nth-child(12) .m-section .row.one i:hover {
+  background-color: rgb(29 120 242);
+}
+.content.index .articles article:nth-child(12) .m-section .row.two i:hover {
+  background-color: rgb(24 0 242);
+}
+.content.index .articles article:nth-child(12) .m-section .row.four i:hover {
+  background-color: rgb(29 0 242);
+}
+
+.content.index .articles article:nth-child(12) .m-section .row.one a:hover {
+  background-color: rgb(29 120 242);
+}
+.content.index .articles article:nth-child(12) .m-section .row.two a:hover {
+  background-color: rgb(24 0 242);
+}
+.content.index .articles article:nth-child(12) .m-section .row.four a:hover {
+  background-color: rgb(29 0 242);
 }
 /* Articles Ending */
 /* Index-Page-Styling End */
