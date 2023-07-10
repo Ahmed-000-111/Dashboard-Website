@@ -1335,6 +1335,9 @@ aside ul.elzero li a i {
   background-color: rgb(29 0 242);
 }
 
+.content.index .articles article:nth-child(12) .m-section .row a:hover {
+  padding: 5px 9px;
+}
 .content.index .articles article:nth-child(12) .m-section .row.one a:hover {
   background-color: rgb(29 120 242);
 }
@@ -1343,6 +1346,12 @@ aside ul.elzero li a i {
 }
 .content.index .articles article:nth-child(12) .m-section .row.four a:hover {
   background-color: rgb(29 0 242);
+}
+
+@media (max-width: 479px) {
+  .content.index .articles article:nth-child(12) .m-section .row span {
+    font-size: 12px;
+  }
 }
 /* Articles Ending */
 /* Index-Page-Styling End */
