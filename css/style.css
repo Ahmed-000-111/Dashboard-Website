@@ -1354,4 +1354,36 @@ aside ul.elzero li a i {
   }
 }
 /* Articles Ending */
+/* Table Starting */
+.content.index .table {
+  margin-top: 40px;
+  background-color: white;
+  border-radius: var(--BRadius);
+  padding: var(--Padding);
+  text-transform: capitalize;
+}
+
+.content.index .table table {
+  margin-top: var(--Padding);
+}
+
+.content.index .table table thead tr th {
+  background-color: var(--Color);
+  padding: 10px var(--Padding);
+}
+
+.content.index .table table tbody tr td {
+  
+}
+
+.content.index .table table img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+/* Table Ending */
 /* Index-Page-Styling End */
