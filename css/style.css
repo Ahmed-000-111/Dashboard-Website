@@ -1365,6 +1365,9 @@ aside ul.elzero li a i {
 
 .content.index .table table {
   margin-top: var(--Padding);
+  text-align: center;
+  min-width: calc(1000px - 15px);
+  border-spacing: 0;
 }
 
 .content.index .table table thead tr th {
@@ -1373,7 +1376,10 @@ aside ul.elzero li a i {
 }
 
 .content.index .table table tbody tr td {
-  
+  font-size: 14px;
+  font-weight: 500;
+  padding: var(--Padding);
+  border: 1px solid var(--Color);
 }
 
 .content.index .table table img {
