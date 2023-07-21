@@ -1382,6 +1382,10 @@ aside ul.elzero li a i {
   border: 1px solid var(--Color);
 }
 
+.content.index .table table tbody tr td:nth-child(5) {
+  text-align: left;
+}
+
 .content.index .table table img {
   width: 32px;
   height: 32px;
@@ -1390,6 +1394,47 @@ aside ul.elzero li a i {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  padding: 2px;
+  background-color: white;
+}
+
+.content.index .table table img:not(:first-child) {
+  margin-left: -20px;
+}
+
+.content.index .table table tbody tr td:nth-child(6) span {
+  padding: 4px 10px;
+  border-radius: 6px;
+  color: white;
+  font-size: 13px;
+}
+
+.content.index .table table tbody tr:first-child td:nth-child(6) span {
+  background-color: var(--Orange);
+}
+
+.content.index .table table tbody tr:nth-child(2) td:nth-child(6) span {
+  background-color: var(--Blue);
+}
+
+.content.index .table table tbody tr:nth-child(3) td:nth-child(6) span {
+  background-color: var(--Green);
+}
+
+.content.index .table table tbody tr:nth-child(4) td:nth-child(6) span {
+  background-color: var(--Green);
+}
+
+.content.index .table table tbody tr:nth-child(5) td:nth-child(6) span {
+  background-color: var(--Red);
+}
+
+.content.index .table table tbody tr:last-child td:nth-child(6) span {
+  background-color: var(--Green);
+}
+
+.content.index .table table tfoot td {
+  
 }
 /* Table Ending */
 /* Index-Page-Styling End */
