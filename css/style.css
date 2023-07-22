@@ -1361,6 +1361,7 @@ aside ul.elzero li a i {
   border-radius: var(--BRadius);
   padding: var(--Padding);
   text-transform: capitalize;
+  overflow-x: auto;
 }
 
 .content.index .table table {
@@ -1434,7 +1435,20 @@ aside ul.elzero li a i {
 }
 
 .content.index .table table tfoot td {
-  
+  background-color: var(--Color);
+  height: 20px;
+}
+
+.content.index .table table tbody tr {
+  transition: var(--Transition);
+  -webkit-transition: var(--Transition);
+  -moz-transition: var(--Transition);
+  -ms-transition: var(--Transition);
+  -o-transition: var(--Transition);
+}
+
+.content.index .table table tbody tr:hover {
+  background-color: var(--Alt-Grey);
 }
 /* Table Ending */
 /* Index-Page-Styling End */
