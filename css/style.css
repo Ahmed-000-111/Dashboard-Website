@@ -1477,4 +1477,8 @@ aside ul.elzero li a i {
   font-size: 15px;
   font-weight: 500;
 }
+
+.content.settings .articles article div:last-child {
+  margin-top: 32px;
+}
 /* Settings-Page-Styling End */
