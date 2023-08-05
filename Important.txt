@@ -1,1 +1,1 @@
-Adjust the top/down margin of the nth(2) child div before begin the button.
+Revise the States before implement it.

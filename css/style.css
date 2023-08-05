@@ -1478,6 +1478,33 @@ aside ul.elzero li a i {
   font-weight: 500;
 }
 
+.content.settings .articles article div:nth-child(2) .button {
+  width: 78px;
+  height: 32px;
+  background-color: var(--Blue);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.content.settings .articles article div:nth-child(2) .button i {
+  color: var(--Blue);
+  border-radius: 50%;
+  background-color: white;
+  padding: 4px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
 .content.settings .articles article div:last-child {
   margin-top: 32px;
 }
