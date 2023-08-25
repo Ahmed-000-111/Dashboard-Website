@@ -1,2 +1,1 @@
-Watch a video in elzero about the button.
-Is it Possible to make the Toggling Styling on the Input Element?
+Try to make a Div to be the moving circle & put iniside this Div the Checkmarks.

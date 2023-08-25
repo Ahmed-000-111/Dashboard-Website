@@ -1493,8 +1493,8 @@ aside ul.elzero li a i {
   padding: 4px;
   cursor: pointer;
 }
-.content.settings .articles article div:nth-child(2) .button:checked {
-  background-color: var(--Grey);
+.content.settings .articles article div:nth-child(2) .button input[type="checkbox"] {
+  display: none;
 }
 
 .content.settings .articles article div:nth-child(2) .button i {
