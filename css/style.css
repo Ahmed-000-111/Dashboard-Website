@@ -1497,16 +1497,38 @@ aside ul.elzero li a i {
   display: none;
 }
 
-.content.settings .articles article div:nth-child(2) .button i {
-  color: var(--Blue);
+.content.settings .articles article div:nth-child(2) .button .circle {
   border-radius: 50%;
-  background-color: white;
-  padding: 4px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  background-color: white;
+  padding: 4px;
+  color: var(--Blue);
+  transform: translateY(-25%);
+  -webkit-transform: translateY(-25%);
+  -moz-transform: translateY(-25%);
+  -ms-transform: translateY(-25%);
+  -o-transform: translateY(-25%);
 }
+
+.content.settings .articles article div:nth-child(2) .button .circle .fa-check {
+  
+}
+
+.content.settings .articles article div:nth-child(2) .button  .circle .fa-xmark {
+  display: none;
+}
+
+.content.settings .articles article div:nth-child(2) .button input[type="checkbox"]:checked + .circle .fa-check {
+  display: none;
+}
+.content.settings .articles article div:nth-child(2) .button input[type="checkbox"]:checked + .circle .fa-xmark {
+  display: block;
+}
+
+
 
 .content.settings .articles article div:last-child {
   margin-top: 32px;
