@@ -1479,7 +1479,7 @@ aside ul.elzero li a i {
 }
 
 .content.settings .articles article div:nth-child(2) label.button {
-  width: 78px;
+  /* width: 78px;
   height: 32px;
   background-color: var(--Blue);
   border-radius: 20px;
@@ -1491,25 +1491,56 @@ aside ul.elzero li a i {
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
   padding: 4px;
-  cursor: pointer;
+  cursor: pointer; */
 }
 .content.settings .articles article div:nth-child(2) .button input[type="checkbox"] {
   display: none;
 }
 
 .content.settings .articles article div:nth-child(2) .button > div:last-child {
-  width: 100%;
-}
-
-.content.settings .articles article div:nth-child(2) .button div .circle {
-  width: 100%;
+  width: 78px;
+  height: 32px;
+  background-color: var(--Blue);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  padding: 4px;
+  cursor: pointer;
+  transition: var(--Transition);
+  -webkit-transition: var(--Transition);
+  -moz-transition: var(--Transition);
+  -ms-transition: var(--Transition);
+  -o-transition: var(--Transition);
+}
+
+.content.settings .articles article div:nth-child(2) .button > div:last-child .circle {
+  width: 24px;
+  height: 24px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  padding: 4px;
+  color: var(--Blue);
+  transition: var(--Transition);
+  -webkit-transition: var(--Transition);
+  -moz-transition: var(--Transition);
+  -ms-transition: var(--Transition);
+  -o-transition: var(--Transition);
 }
 
 .content.settings .articles article div:nth-child(2) .button .circle {
-  border-radius: 50%;
+  /* border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1525,12 +1556,14 @@ aside ul.elzero li a i {
   width: 24px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
+.content.settings .articles article div:nth-child(2) .button input[type="checkbox"]:checked + div:last-child {
+  justify-content: flex-start;
+}
 
-
-.content.settings .articles article div:nth-child(2) .button  .circle .fa-xmark {
+.content.settings .articles article div:nth-child(2) .button > div:last-child .circle .fa-xmark {
   display: none;
 }
 

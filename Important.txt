@@ -1,1 +1,1 @@
-Try to make a Div to be the moving circle & put iniside this Div the Checkmarks.
+Solve the transition problem of the circle.
