@@ -1478,7 +1478,7 @@ aside ul.elzero li a i {
   font-weight: 500;
 }
 
-.content.settings .articles article div:nth-child(2) .button {
+.content.settings .articles article div:nth-child(2) label.button {
   width: 78px;
   height: 32px;
   background-color: var(--Blue);
@@ -1497,6 +1497,17 @@ aside ul.elzero li a i {
   display: none;
 }
 
+.content.settings .articles article div:nth-child(2) .button > div:last-child {
+  width: 100%;
+}
+
+.content.settings .articles article div:nth-child(2) .button div .circle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
 .content.settings .articles article div:nth-child(2) .button .circle {
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -1511,26 +1522,25 @@ aside ul.elzero li a i {
   -moz-transform: translateY(-25%);
   -ms-transform: translateY(-25%);
   -o-transform: translateY(-25%);
+  width: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.content.settings .articles article div:nth-child(2) .button .circle .fa-check {
-  
-}
+
 
 .content.settings .articles article div:nth-child(2) .button  .circle .fa-xmark {
   display: none;
 }
 
-.content.settings .articles article div:nth-child(2) .button input[type="checkbox"]:checked + .circle .fa-check {
+.content.settings .articles article div:nth-child(2) .button input[type="checkbox"]:checked + div .circle .fa-check {
   display: none;
 }
-.content.settings .articles article div:nth-child(2) .button input[type="checkbox"]:checked + .circle .fa-xmark {
+.content.settings .articles article div:nth-child(2) .button input[type="checkbox"]:checked + div .circle .fa-xmark {
   display: block;
 }
 
 
 
-.content.settings .articles article div:last-child {
-  margin-top: 32px;
-}
 /* Settings-Page-Styling End */
